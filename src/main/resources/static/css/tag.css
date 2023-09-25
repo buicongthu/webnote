@@ -1,0 +1,141 @@
+body{
+    background-color: #faf7e7 !important;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.custom-container{
+    background-color: #ffffff;
+    overflow: hidden;
+    border: 0px solid #000;
+    border-radius: 10px;
+    padding-left: 0;
+    height: 500px;
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 25px;
+}
+.sidebar{
+
+    width: 20%;
+    height: 100%;
+    float: left;
+
+    /* box-shadow: 1px 0 0 rgba(0, 0, 0, 0.2); */
+}
+.info{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+
+}
+.info .iconweb{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    /* background-color: azure; */
+
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.info .name{
+    margin-left: 13px;
+}
+.upsidebar .itemup{
+    display: flex;
+    align-items: center;
+    /* background-color: rgba(182, 197, 192, 0.784); */
+    height: 35px;
+    margin-top: 5px;
+}
+.itemup .iconup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: bisque; */
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+.itemup .nameup{
+    margin-left: 10px;
+
+}
+.itemup:hover{
+    background-color:#faf9f3;
+}
+.workspace .workspaceheader{
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    color: #d3d7df;
+}
+.workspace .itemdown{
+    display: flex;
+    margin-left: 15px;
+    margin-top: 10px;
+
+}
+.itemdown .icondown{
+    margin-right: 30px;
+}
+.main{
+    /* background-color: blue; */
+    width: 80%;
+    height: 100%;
+    float: right;
+    padding-right: 20px;
+
+}
+.mainheader{
+    display: flex;
+    align-items: center;
+}
+.search{
+    display: flex;
+    border: 0.5px solid #483e31;
+    border-radius: 20px;
+    margin-top: 10px;
+    /* margin-left: 40px; */
+    width: 250px;
+    margin-bottom: 20px;
+    margin-right: 30px;
+}
+.search .iconsearch{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+}
+.iconsearch ion-icon{
+    font-size: 20px;
+    color: #2e2923;
+}
+.search input{
+    width: 150px;
+    height: 40px;
+    border: none;
+}
+.search input::placeholder{
+    text-align: center;
+}
+.search input:focus{
+    outline: none;
+    border: none;
+}
+.mainheader .btnadd button{
+    border: none;
+    background-color: #ffffff;
+
+}
+.addtag i{
+    font-size: 30px;
+}

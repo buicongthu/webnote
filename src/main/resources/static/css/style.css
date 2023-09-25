@@ -1,0 +1,348 @@
+body{
+    background-color: #faf7e7 !important;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.custom-container{
+    background-color: #ffffff;
+    overflow: hidden;
+    border: 0px solid #000;
+    border-radius: 10px;
+    padding-left: 0;
+    height: 550px;
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 25px;
+}
+.sidebar{
+
+    width: 20%;
+    height: 100%;
+    float: left;
+    /* box-shadow: 1px 0 0 rgba(0, 0, 0, 0.2); */
+}
+.info{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+
+}
+.info .iconweb{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    /* background-color: azure; */
+
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.info .name{
+    margin-left: 13px;
+}
+.upsidebar .itemup{
+    display: flex;
+    align-items: center;
+    /* background-color: rgba(182, 197, 192, 0.784); */
+    height: 35px;
+    margin-top: 5px;
+}
+.itemup .iconup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: bisque; */
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+.itemup .nameup{
+    margin-left: 10px;
+
+}
+.itemup:hover{
+    background-color:#faf9f3;
+}
+.workspace .workspaceheader{
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    color: #d3d7df;
+}
+.workspace .itemdown{
+    display: flex;
+    margin-left: 15px;
+    margin-top: 10px;
+
+}
+.itemdown .icondown{
+    margin-right: 30px;
+}
+.main{
+    /* background-color: blue; */
+    width: 80%;
+    height: 100%;
+    float: right;
+    display: flex;
+}
+.main .mainright{
+    /* background-color: #316de1; */
+    width: 40%;
+    /* box-shadow: 1px 0 0 rgba(0, 0, 0, 0.2); */
+
+}
+.mainrightheader{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.mainrightheader .pin,.filter
+{
+
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.pin ,.filter i{
+    color: #eb9b39;
+}
+.notename{
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 49px;
+    /* box-shadow:  0 0 0 rgba(0, 0, 0, 0.2); */
+}
+.mainright .searchnote{
+
+    display: flex;
+    border: 0.5px solid #483e31;
+    border-radius: 20px;
+    margin-top: 10px;
+    /* margin-left: 40px; */
+    width: 250px;
+}
+
+.mainright .searchnote .iconsearch{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+
+}
+.listnote{
+    overflow: auto;
+    overflow-x: hidden;
+    max-height: 370px;
+}
+.listnote::-webkit-scrollbar {
+    width: 0.5em;
+}
+.mainright .listnote .note{
+    height: 100px;
+    width: 100%;
+    border: 0px solid #000;
+    border-radius: 10px;
+    margin-top: 10px;
+
+    background-color: #fbfbfb;
+}
+.listnote .time{
+    padding-bottom: 5px;
+}
+.listnote .time p{
+    font-size: 12px;
+}
+.note .shortcontent p{
+    font-size: 14px;
+}
+.note .headernote{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.headernote .delete{
+     margin-right: 15px;
+     margin-top: 10px;
+ }
+.headernote .update{
+    margin-right: 15px;
+    margin-top: 10px;
+    margin-left: 140px;
+}
+.searchnote .formsearch input{
+    width: 150px;
+    height: 40px;
+    border: none;
+}
+.searchnote .formsearch input::placeholder{
+    text-align: center;
+}
+.searchnote .formsearch input:focus{
+    outline: none;
+    border: none;
+}
+.mainright .searchnote .iconsearch ion-icon{
+    font-size: 20px;
+    color: #2e2923;
+}
+.listnote .shortcontent{
+    padding-left: 10px;
+    color: #d8d8d8;
+}
+.listnote .title{
+    padding-left: 10px;
+    padding-top: 10px;
+    color: #302e24;
+}
+.listnote .time{
+    margin-left: 10px;
+    color: #d8d8d8;
+
+}
+.main .mainleft{
+    height: 300px;
+    width: 70%;
+    margin-left: 60px;
+}
+.main .mainheaderup{
+    /* background-color: #edf5fe; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: auto;
+    width: 100%;
+}
+.main .mainheaderup .mainheadericon{
+    display: flex;
+    align-items: center;
+    float: right;
+    margin: 5px;
+
+    position: relative;
+}
+.addnote{
+    margin-left: 40px;
+
+}
+.addnote button{
+    border: none;
+
+}
+.addnote button i{
+    font-size: 25px;
+}
+.modalheaderadd{
+    display: flex;
+}
+.modalheaderadd select{
+    margin-right: 40px;
+}
+.modalheaderadd textarea{
+    margin-right: 30px;
+    width: 250px;
+}
+.mainheadericon .notify{
+    position: relative;
+    display: inline-block;
+    font-size: 25px;
+    margin-right: 20px;
+
+
+
+}
+.fa-bell {
+    font-size: 25px; /* Điều chỉnh kích thước của biểu tượng */
+}
+.notify .badge {
+    position: absolute;
+    top: 0;
+    right: -11px; /* Điều chỉnh khoảng cách của badge với icon */
+    background-color: red; /* Màu nền của badge */
+    color: white; /* Màu chữ của badge */
+    border-radius: 50%; /* Tạo hình tròn cho badge */
+    width: 25px; /* Đường kính của badge */
+    height: 25px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 20px; /* Để chữ giữa badge */
+}
+.notify-content {
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 10px;
+
+    display: none; /* Ẩn ban đầu */
+
+
+    /* order: 2; Đặt thứ tự của .notify-content là 2 */
+    position: absolute; /* Để có vị trí tuyệt đối */
+    top: 100%; /* Đặt top là 100% để nằm dưới .notify */
+    left: -90px;
+    z-index: 999; /* Đặt z-index cao hơn để đè lên hết */
+    background-color: white; /* Màu nền của .notify-content */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Thêm bóng đổ cho .notify-content */
+}
+.notify-content.active {
+    display: block; /* Hiển thị khi có lớp "active" */
+}
+.notify-item{
+    margin-top: 5px;
+    height: 50px;
+}
+.notify-item:hover{
+    background-color: #faf7e7;
+}
+.mainheadericon .support{
+    font-size: 25px;
+    margin-right: 20px;
+
+
+}
+.mainheadericon img{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    margin-right: 16px;
+
+}
+
+.maincontent{
+    margin-top: 15px;
+    margin-left: 20px;
+    /* background-color: aqua; */
+    height: 450px;
+}
+.maincontent .contenttitle{
+    margin-left: 20px;
+}
+.taglist{
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;
+}
+.taglist .tag{
+    display: flex;
+    margin-right: 15px;
+    color: #eb9b39;
+
+}
+.tagicon{
+    margin-right: 5px;
+}
+.maincontent .content{
+    /* background-color: #eb9b39; */
+    height: auto;
+    width: 85%;
+    margin-left: 20px;
+    margin-top: 20px;
+    color: #9d9696;
+}
